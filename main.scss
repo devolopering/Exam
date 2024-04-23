@@ -424,6 +424,9 @@ main{
                         float: right;
                         width:65%;
                     }
+                    &:last-of-type{
+                        border: none;
+                    }
                 }
             }
            }
@@ -711,7 +714,7 @@ main{
            }
            .contact_right{
             background-color: #F9F9FB;
-            padding: 4rem 7.2rem 5.6rem 4.8rem;
+            padding: 3.2rem 2.8rem 4.8rem 2.8rem;
             .contact_info{
                 display: flex;
                 flex-direction: column;
@@ -1082,9 +1085,7 @@ main{
                         float: right;
                         width:100%;
                     }
-                    &:last-of-type{
-                        border: none;
-                    }
+                  
                 }
             }
            }
